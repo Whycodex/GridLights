@@ -13,6 +13,13 @@ function Cell(filled, onClick, isDisabled, label) {
 }
 
 function App() {
+  
+  const config = [
+    [1, 1, 1],
+    [1, 0, 1],
+    [1, 1, 1],
+  ];
+
   return (
     <div>
       <div>
